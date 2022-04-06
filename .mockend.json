@@ -1,51 +1,10 @@
 {
-  "Post": {
-    "title":  [
-        {
-          "name": "Benedict Dyer",
-          "age": 30,
-          "department": "COE"
-        },
-        {
-          "name": "Kelsie Compton",
-          "age": 35,
-          "department": "COE"
-        },
-        {
-          "name": "Brianna Andrews",
-          "age": 40,
-          "department": "NET"
-        },
-        {
-          "name": "Ralph Willis",
-          "age": 20,
-          "department": "NET"
-        },
-        {
-          "name": "Hollee Christensen",
-          "age": 45,
-          "department": "NET"
-        },
-        {
-          "name": "John Doe",
-          "age": 25,
-          "department": "DOM"
-        },
-        {
-          "name": "Jane Dane",
-          "age": 55,
-          "department": "DOM"
-        }
-      ]
-    ,
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+  "employees": {
+    "name": {
+      "string": ["Benedict Dyer", "Kelsie Compton", "Brianna Andrews", "Ralph Willis", "Hollee Christensen", "John Doe", "Jane Dane"]
+    },
+    "age": {
+      "int": [30, 35, 40, 20, 45, 25, 55]
     }
   }
 }
