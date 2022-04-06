@@ -1,7 +1,6 @@
 {
   "Post": {
-    "title": {
-      "employees": [
+    "title":  [
         {
           "name": "Benedict Dyer",
           "age": 30,
@@ -38,7 +37,7 @@
           "department": "DOM"
         }
       ]
-    },
+    ,
     "comments": {
       "hasMany": "Comment"
     }
