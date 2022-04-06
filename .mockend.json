@@ -5,6 +5,9 @@
     },
     "age": {
       "int": [30, 35, 40, 20, 45, 25, 55]
+    },
+    "department": {
+      "string": ["COE", "NET", "DOM"]
     }
   }
 }
