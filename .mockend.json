@@ -1,5 +1,5 @@
 {
-  "employees": {
+  "User": {
     "name": {
       "string": ["Benedict Dyer", "Kelsie Compton", "Brianna Andrews", "Ralph Willis", "Hollee Christensen", "John Doe", "Jane Dane"]
     },
