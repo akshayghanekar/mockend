@@ -1,6 +1,44 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "title": {
+      "employees": [
+        {
+          "name": "Benedict Dyer",
+          "age": 30,
+          "department": "COE"
+        },
+        {
+          "name": "Kelsie Compton",
+          "age": 35,
+          "department": "COE"
+        },
+        {
+          "name": "Brianna Andrews",
+          "age": 40,
+          "department": "NET"
+        },
+        {
+          "name": "Ralph Willis",
+          "age": 20,
+          "department": "NET"
+        },
+        {
+          "name": "Hollee Christensen",
+          "age": 45,
+          "department": "NET"
+        },
+        {
+          "name": "John Doe",
+          "age": 25,
+          "department": "DOM"
+        },
+        {
+          "name": "Jane Dane",
+          "age": 55,
+          "department": "DOM"
+        }
+      ]
+    },
     "comments": {
       "hasMany": "Comment"
     }
